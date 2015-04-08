@@ -257,3 +257,13 @@ h1 {
 	width: 100%;
 }
 }
+
+@media ( min-width: 992px ) {
+
+h2 {
+	padding-top: 60px;
+}
+.event {
+	padding: 200px 15px;
+}
+}

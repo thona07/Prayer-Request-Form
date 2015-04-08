@@ -7736,3 +7736,11 @@ label {
   /* line 256, ../sass/styles.scss */
   .latest-posts div .content {
     width: 100%; } }
+@media (min-width: 992px) {
+  /* line 263, ../sass/styles.scss */
+  h2 {
+    padding-top: 60px; }
+
+  /* line 266, ../sass/styles.scss */
+  .event {
+    padding: 200px 15px; } }
