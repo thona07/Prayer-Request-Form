@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /**
-* Project Name		: Test Bootstrap Church
-* Date				: 26-March-2015
+* Project Name		: Prayer-Request-Form
+* Date				: 08-April-2015
 * Developer			: Euk Thona
 * Developer URL		: http://glean.net
 */
@@ -7457,61 +7457,66 @@ body {
 h1, h2, h3 {
   font-family: "museo-sans-rounded",sans-serif;
   color: #789f90;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
-/* line 25, ../sass/styles.scss */
+/* line 26, ../sass/styles.scss */
 h1 {
+  color: #fff;
   font-size: 2.5em;
-  text-align: center; }
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px; }
 
-/* line 29, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 h2, h3 {
   padding-top: 30px;
-  padding-bottom: 10px;
-  margin: 0;
-  line-height: 1.5; }
+  margin: 0; }
 
-/* line 35, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 h2 {
   font-size: 2em; }
 
-/* line 38, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
 h3 {
   font-size: 1.5em; }
 
-/* line 41, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 p {
   font-size: 1.5em;
-  text-align: left;
-  line-height: 1.5; }
+  text-align: left; }
 
-/* line 46, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 img {
   width: 100%; }
 
-/* line 49, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 .row {
   padding: 0;
   margin: 0; }
 
-/* line 53, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 .container {
   padding: 0 15px; }
 
-/* line 56, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
+.container:nth-child(2) {
+  padding: 0; }
+
+/* line 60, ../sass/styles.scss */
 .container:nth-child(6) {
   background: #789f90; }
 
-/* line 59, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 .container:nth-child(7) {
   padding: 0; }
 
-/* line 62, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 .footer {
   background: #343836;
   padding: 0 15px; }
 
-/* line 66, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .logo {
   background: url(../images/logo.png) no-repeat;
   background-size: 46px 46px;
@@ -7519,11 +7524,11 @@ img {
   text-decoration: none;
   float: left;
   text-indent: -9999px;
-  margin: 15px 0 15px 0;
+  margin: 15px 0 15px 15px;
   width: 46px;
   height: 46px; }
 
-/* line 77, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 nav {
   background: #fff;
   box-shadow: 1px 2px 4px #ccc;
@@ -7531,30 +7536,30 @@ nav {
   width: 100%;
   position: fixed; }
 
-/* line 84, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 nav ul {
   background: #fff;
   display: none;
-  top: 66px;
+  top: 76px;
   padding: 0;
   margin: 0;
   position: absolute;
   list-style: none;
   width: 100%; }
 
-/* line 94, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 nav ul a {
   color: #789f90;
   display: block;
   text-decoration: none;
   padding: 20px 15px; }
 
-/* line 100, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 nav ul a:hover {
   background: #789f90;
   color: #fff; }
 
-/* line 104, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .menu {
   background: #eee;
   border-radius: 4px;
@@ -7565,18 +7570,143 @@ nav ul a:hover {
   width: 40px;
   padding: 10px; }
 
-/* line 114, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
 .menu:hover {
   background: #789f90; }
 
-/* line 117, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .menu:hover span {
   background: #fff; }
 
-/* line 120, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .menu span {
   background: #789f90;
   display: block;
   margin-bottom: 3px;
   height: 3px;
   width: 18px; }
+
+/* line 131, ../sass/styles.scss */
+.event {
+  background: url(../images/gal-2.jpg) no-repeat;
+  background-size: cover;
+  padding: 45px 15px;
+  margin-top: 73px;
+  text-align: center; }
+
+/* line 138, ../sass/styles.scss */
+.event span {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.5; }
+
+/* line 143, ../sass/styles.scss */
+.prayer span {
+  color: #8d9290;
+  display: block;
+  margin: 0; }
+
+/* line 148, ../sass/styles.scss */
+.prayer p {
+  margin: 0;
+  padding-top: 15px; }
+
+/* line 152, ../sass/styles.scss */
+.email {
+  background: #789f90; }
+
+/* line 155, ../sass/styles.scss */
+form {
+  background: #8d9290;
+  margin-bottom: 0;
+  font-family: "museo-sans-rounded",sans-serif;
+  font-size: 1.3em;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center; }
+
+/* line 164, ../sass/styles.scss */
+.email h2 {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 30px; }
+
+/* line 171, ../sass/styles.scss */
+.email-signup {
+  color: #343836;
+  display: block;
+  padding-top: 20px; }
+
+/* line 176, ../sass/styles.scss */
+label {
+  color: #fff;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  float: left; }
+
+/* line 182, ../sass/styles.scss */
+.btn {
+  background: #789f90;
+  text-transform: uppercase;
+  font-family: "museo-sans-rounded",sans-serif;
+  font-size: 1em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 130px;
+  height: 50px; }
+
+/* line 192, ../sass/styles.scss */
+.content div {
+  display: inline-block;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+/* line 198, ../sass/styles.scss */
+.content h3 a {
+  color: #fff;
+  line-height: 1.5; }
+
+/* line 202, ../sass/styles.scss */
+.content span {
+  color: #fff;
+  padding-bottom: 30px;
+  display: block; }
+
+/* line 207, ../sass/styles.scss */
+.latest-posts h2 {
+  color: #fff;
+  padding-bottom: 20px; }
+
+/* line 211, ../sass/styles.scss */
+.latest-posts div {
+  padding: 0; }
+
+/* line 214, ../sass/styles.scss */
+.address {
+  text-align: center;
+  margin-top: 30px; }
+
+/* line 218, ../sass/styles.scss */
+.address p {
+  color: #789f90;
+  font-family: "museo-sans-rounded",sans-serif;
+  text-align: center; }
+
+/* line 223, ../sass/styles.scss */
+.address p a {
+  color: #789f90;
+  text-decoration: underline; }
+
+/* line 227, ../sass/styles.scss */
+.social-media {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 10px; }
+
+/* line 232, ../sass/styles.scss */
+.social-media div {
+  display: inline-block;
+  padding: 7px 3px; }
