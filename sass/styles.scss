@@ -56,6 +56,7 @@ img {
 }
 .container:nth-child( 2 ) {
 	padding: 0;
+	width: 100%;
 }
 .container:nth-child( 6 ) {
 	background: #789f90;
@@ -84,11 +85,12 @@ nav {
 	top: 0;
 	width: 100%;
 	position: fixed;
+	z-index: 1;
 } 
 nav ul {
 	background: #fff;
 	display: none;
-	top: 76px;
+	top: 77px;
 	padding: 0;
 	margin: 0;
 	position: absolute;
@@ -232,4 +234,26 @@ label {
 .social-media div {
 	display: inline-block;
 	padding: 7px 3px;
+}
+
+@media ( min-width: 768px ) {
+
+h1 {
+	font-size: 3em;
+	padding-bottom: 2px;
+}
+.event span {
+	font-size: 1.5em;
+}
+.event {
+	padding: 145px 15px;
+}
+.latest-posts div {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+.latest-posts div .content {
+	width: 100%;
+}
 }
