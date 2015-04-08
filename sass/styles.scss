@@ -1,0 +1,126 @@
+/**
+* Project Name		: Test Bootstrap Church
+* Date				: 26-March-2015
+* Developer			: Euk Thona
+* Developer URL		: http://glean.net
+*/
+
+
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+@import 'normalize';
+
+body {
+	color: #343836;
+	font-family: "museo-slab", serif;
+	font-size: 14px;
+	margin: 0;
+}
+h1, h2, h3 {
+	font-family: "museo-sans-rounded",sans-serif;
+	color: #789f90;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+}
+h2, h3 {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin: 0;
+	line-height: 1.5;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.5em;
+}
+p {
+	font-size: 1.5em;
+	text-align: left;
+	line-height: 1.5;
+}
+img {
+	width: 100%;
+}
+.row {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	padding: 0 15px;
+}
+.container:nth-child( 6 ) {
+	background: #789f90;
+}
+.container:nth-child( 7 ) {
+	padding: 0;
+}
+.footer {
+	background: #343836;
+	padding: 0 15px;
+}
+.logo {
+	background: url(../images/logo.png) no-repeat;
+	background-size: 46px 46px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	text-indent: -9999px;
+	margin: 15px 0 15px 0;
+	width: 46px;
+	height: 46px;
+}
+nav {
+	background: #fff;
+	box-shadow: 1px 2px 4px #ccc;
+	top: 0;
+	width: 100%;
+	position: fixed;
+} 
+nav ul {
+	background: #fff;
+	display: none;
+	top: 66px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	list-style: none;
+	width: 100%;
+}
+nav ul a {
+	color: #789f90;
+	display: block;
+	text-decoration: none;
+	padding: 20px 15px;
+}
+nav ul a:hover {
+	background: #789f90;
+	color: #fff;
+}
+.menu {
+	background: #eee;
+	border-radius: 4px;
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	width: 40px;
+	padding: 10px;
+}
+.menu:hover {
+	background: #789f90;
+}
+.menu:hover span{
+	background: #fff;
+}
+.menu span {
+	background: #789f90;
+	display: block;
+	margin-bottom: 3px;
+	height: 3px;
+	width: 18px;
+}
