@@ -58,10 +58,11 @@ img {
 	padding: 0;
 	width: 100%;
 }
-.container:nth-child( 6 ) {
+.container:nth-child( 5 ) {
 	background: #789f90;
+	margin-top: 30px;
 }
-.container:nth-child( 7 ) {
+.container:nth-child( 6 ) {
 	padding: 0;
 }
 .footer {
@@ -156,7 +157,7 @@ nav ul a:hover {
 }
 form {
 	background: #8d9290;
-	margin-bottom: 0;
+	margin-bottom: 30px;
 	font-family: "museo-sans-rounded",sans-serif;
 	font-size: 1.3em;
 	padding-left: 15px;
@@ -194,8 +195,6 @@ label {
 .content div {
 	display: inline-block;
 	padding-right: 10px;
-	padding-top: 30px;
-	padding-bottom: 30px;
 }
 .content h3 a {
 	color: #fff;
@@ -260,10 +259,33 @@ h1 {
 
 @media ( min-width: 992px ) {
 
+.menu {
+	display: none;
+}
+nav {
+	position: fixed;
+}
+nav ul {
+	display: block;
+	position: static;
+	float: right;
+	width: auto;
+	padding-right: 15px;
+	text-align: center;
+}
+nav ul a {
+	font-size: 1.5em;
+}
+ul li {
+	display: inline-block;
+}
 h2 {
 	padding-top: 60px;
 }
 .event {
 	padding: 200px 15px;
+}
+.email {
+	margin-top: 60px;
 }
 }
