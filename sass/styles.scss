@@ -54,9 +54,9 @@ img {
 .container {
 	padding: 0 15px;
 }
-.container:nth-child( 2 )  {
-padding: 0;
-margin: 0;
+.fullwidths .container {
+	padding: 0;
+	margin: 0;
 }
 .fullwidth .container{
 	padding: 0;

@@ -7500,7 +7500,7 @@ img {
   padding: 0 15px; }
 
 /* line 57, ../sass/styles.scss */
-.container:nth-child(2) {
+.fullwidths .container {
   padding: 0;
   margin: 0; }
 
