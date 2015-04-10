@@ -7507,18 +7507,20 @@ img {
 /* line 61, ../sass/styles.scss */
 .container:nth-child(5) {
   background: #789f90;
-  margin-top: 30px; }
+  margin-top: 20px;
+  width: 100%; }
 
-/* line 65, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 .container:nth-child(6) {
-  padding: 0; }
+  padding: 0;
+  width: 100%; }
 
-/* line 68, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .footer {
   background: #343836;
   padding: 0 15px; }
 
-/* line 72, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 .logo {
   background: url(../images/logo.png) no-repeat;
   background-size: 46px 46px;
@@ -7530,7 +7532,7 @@ img {
   width: 46px;
   height: 46px; }
 
-/* line 83, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 nav {
   background: #fff;
   box-shadow: 1px 2px 4px #ccc;
@@ -7539,7 +7541,7 @@ nav {
   position: fixed;
   z-index: 1; }
 
-/* line 91, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 nav ul {
   background: #fff;
   display: none;
@@ -7550,19 +7552,19 @@ nav ul {
   list-style: none;
   width: 100%; }
 
-/* line 101, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 nav ul a {
   color: #789f90;
   display: block;
   text-decoration: none;
   padding: 20px 15px; }
 
-/* line 107, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 nav ul a:hover {
   background: #789f90;
   color: #fff; }
 
-/* line 111, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 .menu {
   background: #eee;
   border-radius: 4px;
@@ -7573,15 +7575,15 @@ nav ul a:hover {
   width: 40px;
   padding: 10px; }
 
-/* line 121, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 .menu:hover {
   background: #789f90; }
 
-/* line 124, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 .menu:hover span {
   background: #fff; }
 
-/* line 127, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 .menu span {
   background: #789f90;
   display: block;
@@ -7589,7 +7591,7 @@ nav ul a:hover {
   height: 3px;
   width: 18px; }
 
-/* line 134, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 .event {
   background: url(../images/gal-2.jpg) no-repeat;
   background-size: cover;
@@ -7597,28 +7599,28 @@ nav ul a:hover {
   margin-top: 73px;
   text-align: center; }
 
-/* line 141, ../sass/styles.scss */
+/* line 143, ../sass/styles.scss */
 .event span {
   color: #fff;
   text-transform: uppercase;
   line-height: 1.5; }
 
-/* line 146, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 .prayer span {
   color: #8d9290;
   display: block;
   margin: 0; }
 
-/* line 151, ../sass/styles.scss */
-.prayer p {
+/* line 153, ../sass/styles.scss */
+.pray p {
   margin: 0;
   padding-top: 15px; }
 
-/* line 155, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 .email {
   background: #789f90; }
 
-/* line 158, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 form {
   background: #8d9290;
   margin-bottom: 30px;
@@ -7628,7 +7630,7 @@ form {
   padding-right: 15px;
   text-align: center; }
 
-/* line 167, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 .email h2 {
   color: #fff;
   padding-top: 20px;
@@ -7636,20 +7638,20 @@ form {
   text-align: center;
   margin-top: 30px; }
 
-/* line 174, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 .email-signup {
   color: #343836;
   display: block;
   padding-top: 20px; }
 
-/* line 179, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 label {
   color: #fff;
   margin-top: 20px;
   padding-bottom: 5px;
   float: left; }
 
-/* line 185, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 .btn {
   background: #789f90;
   text-transform: uppercase;
@@ -7660,91 +7662,100 @@ label {
   width: 130px;
   height: 50px; }
 
-/* line 195, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 .content div {
   display: inline-block;
-  padding-right: 10px; }
+  padding-right: 10px;
+  padding-bottom: 10px; }
 
-/* line 199, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 .content h3 a {
   color: #fff;
   line-height: 1.5; }
 
-/* line 203, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 .content span {
   color: #fff;
   padding-bottom: 30px;
   display: block; }
 
-/* line 208, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 .latest-posts h2 {
   color: #fff;
   padding-bottom: 20px; }
 
-/* line 212, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 .latest-posts div {
   padding: 0; }
 
-/* line 215, ../sass/styles.scss */
+/* line 218, ../sass/styles.scss */
 .address {
   text-align: center;
   margin-top: 30px; }
 
-/* line 219, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 .address p {
   color: #789f90;
   font-family: "museo-sans-rounded",sans-serif;
   text-align: center; }
 
-/* line 224, ../sass/styles.scss */
+/* line 227, ../sass/styles.scss */
 .address p a {
   color: #789f90;
   text-decoration: underline; }
 
-/* line 228, ../sass/styles.scss */
+/* line 231, ../sass/styles.scss */
 .social-media {
   text-align: center;
   padding-bottom: 30px;
   padding-top: 10px; }
 
-/* line 233, ../sass/styles.scss */
+/* line 236, ../sass/styles.scss */
 .social-media div {
   display: inline-block;
   padding: 7px 3px; }
 
 @media (min-width: 768px) {
-  /* line 240, ../sass/styles.scss */
+  /* line 243, ../sass/styles.scss */
   h1 {
     font-size: 3em;
     padding-bottom: 2px; }
 
-  /* line 244, ../sass/styles.scss */
+  /* line 247, ../sass/styles.scss */
   .event span {
     font-size: 1.5em; }
 
-  /* line 247, ../sass/styles.scss */
+  /* line 250, ../sass/styles.scss */
   .event {
     padding: 145px 15px; }
 
-  /* line 250, ../sass/styles.scss */
+  /* line 253, ../sass/styles.scss */
   .latest-posts div {
     width: 50%;
     float: left;
     padding: 10px; }
 
-  /* line 255, ../sass/styles.scss */
+  /* line 258, ../sass/styles.scss */
   .latest-posts div .content {
     width: 100%; } }
 @media (min-width: 992px) {
-  /* line 262, ../sass/styles.scss */
+  /* line 265, ../sass/styles.scss */
+  .container:nth-child(3) .row:nth-child(1) {
+    width: 50%;
+    float: left;
+    margin-top: 70px; }
+
+  /* line 270, ../sass/styles.scss */
+  .container:nth-child(3) .row:nth-child(2) {
+    width: 40%;
+    float: right;
+    margin-top: 70px; }
+
+  /* line 275, ../sass/styles.scss */
   .menu {
     display: none; }
 
-  /* line 265, ../sass/styles.scss */
-  nav {
-    position: fixed; }
-
-  /* line 268, ../sass/styles.scss */
+  /* line 278, ../sass/styles.scss */
   nav ul {
     display: block;
     position: static;
@@ -7753,22 +7764,86 @@ label {
     padding-right: 15px;
     text-align: center; }
 
-  /* line 276, ../sass/styles.scss */
+  /* line 286, ../sass/styles.scss */
   nav ul a {
     font-size: 1.5em; }
 
-  /* line 279, ../sass/styles.scss */
+  /* line 289, ../sass/styles.scss */
   ul li {
     display: inline-block; }
 
-  /* line 282, ../sass/styles.scss */
-  h2 {
-    padding-top: 60px; }
-
-  /* line 285, ../sass/styles.scss */
+  /* line 292, ../sass/styles.scss */
   .event {
     padding: 200px 15px; }
 
-  /* line 288, ../sass/styles.scss */
-  .email {
-    margin-top: 60px; } }
+  /* line 295, ../sass/styles.scss */
+  .pray h2 {
+    padding-top: 0; }
+
+  /* line 298, ../sass/styles.scss */
+  .pray p {
+    padding-bottom: 40px; }
+
+  /* line 301, ../sass/styles.scss */
+  .email h2 {
+    margin-top: 0; }
+
+  /* line 304, ../sass/styles.scss */
+  .container:nth-child(5) {
+    margin-top: 0; }
+
+  /* line 307, ../sass/styles.scss */
+  .content {
+    padding-bottom: 70px;
+    margin: 0; }
+
+  /* line 311, ../sass/styles.scss */
+  .content h3 {
+    padding: 0; }
+
+  /* line 314, ../sass/styles.scss */
+  .content h3 a {
+    padding-top: 10px;
+    padding-bottom: 0; }
+
+  /* line 318, ../sass/styles.scss */
+  .content span {
+    padding-bottom: 70px; }
+
+  /* line 321, ../sass/styles.scss */
+  .latest-posts h2 {
+    padding-top: 70px;
+    margin: 0; }
+
+  /* line 325, ../sass/styles.scss */
+  .latest-posts div {
+    width: 25%;
+    padding-bottom: 0; }
+
+  /* line 329, ../sass/styles.scss */
+  .address {
+    padding-top: 70px;
+    float: left;
+    padding-left: 15px;
+    margin: 0; }
+
+  /* line 335, ../sass/styles.scss */
+  .social-media {
+    float: right;
+    padding-top: 70px;
+    padding-right: 15px; } }
+@media (min-width: 1200px) {
+  /* line 343, ../sass/styles.scss */
+  .container:nth-child(3) {
+    margin-top: 70px; }
+
+  /* line 346, ../sass/styles.scss */
+  .container:nth-child(3),
+  nav .container {
+    margin: auto;
+    width: 1170px; }
+
+  /* line 351, ../sass/styles.scss */
+  .latest-posts {
+    margin: auto;
+    width: 1170px; } }
