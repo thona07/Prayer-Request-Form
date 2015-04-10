@@ -261,12 +261,17 @@ h1 {
 }
 
 @media ( min-width: 992px ) {
-
+	.container:nth-child( 3 ) {
+	margin-top: 70px;
+}
 .container:nth-child( 3 ) .row:nth-child( 1 ) {
 	width: 50%;
 	float: left;
 	margin-top: 70px;
 }
+.container:nth-child( 2 ) {
+	width: 100%;
+}	
 .container:nth-child( 3 ) .row:nth-child( 2 ) {
 	width: 40%;
 	float: right;
@@ -331,18 +336,17 @@ ul li {
 	float: left;
 	padding-left: 15px;
 	margin: 0;
+	padding-bottom: 70px;
 }
 .social-media {
 	float: right;
 	padding-top: 70px;
 	padding-right: 15px;
+	padding-bottom: 70px;
 }
 }
-
 @media ( min-width: 1200px ) {
-	.container:nth-child( 3 ) {
-	margin-top: 70px;
-}
+
 	.container:nth-child( 3 ),
 	nav .container {
 		margin: auto;
