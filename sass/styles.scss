@@ -54,7 +54,10 @@ img {
 .container {
 	padding: 0 15px;
 }
-.container:nth-child( 2 ) {
+.container:nth-child( 2 )  {
+padding: 0;
+}
+.fullwidth .container{
 	padding: 0;
 	width: 100%;
 }
@@ -78,7 +81,9 @@ img {
 	text-decoration: none;
 	float: left;
 	text-indent: -9999px;
-	margin: 15px 0 15px 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
 	width: 46px;
 	height: 46px;
 }
@@ -105,6 +110,9 @@ nav ul a {
 	display: block;
 	text-decoration: none;
 	padding: 20px 15px;
+}
+nav ul li:nth-child( 5 ) a {
+	color: #89c6d2;
 }
 nav ul a:hover {
 	background: #789f90;
@@ -136,7 +144,7 @@ nav ul a:hover {
 .event {
 	background: url(../images/gal-2.jpg) no-repeat;
 	background-size: cover;
-	padding: 45px 15px;
+	padding: 85px 15px;
 	margin-top: 73px;
 	text-align: center;
 }
@@ -156,6 +164,8 @@ nav ul a:hover {
 }
 .email {
 	background: #789f90;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 form {
 	background: #8d9290;
@@ -165,6 +175,8 @@ form {
 	padding-left: 15px;
 	padding-right: 15px;
 	text-align: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 .email h2 {
 	color: #fff;
@@ -191,8 +203,6 @@ label {
 	font-size: 1em;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	width: 130px;
-	height: 50px;
 }
 .content div {
 	display: inline-block;
@@ -269,9 +279,6 @@ h1 {
 	float: left;
 	margin-top: 70px;
 }
-.container:nth-child( 2 ) {
-	width: 100%;
-}	
 .container:nth-child( 3 ) .row:nth-child( 2 ) {
 	width: 40%;
 	float: right;
