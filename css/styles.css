@@ -7571,11 +7571,15 @@ nav ul li:nth-child(5) a {
   color: #89c6d2; }
 
 /* line 118, ../sass/styles.scss */
+nav ul li:nth-child(5) a:hover {
+  color: #fff; }
+
+/* line 121, ../sass/styles.scss */
 nav ul a:hover {
   background: #789f90;
   color: #fff; }
 
-/* line 122, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 .menu {
   background: #eee;
   border-radius: 4px;
@@ -7586,15 +7590,15 @@ nav ul a:hover {
   width: 40px;
   padding: 10px; }
 
-/* line 132, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 .menu:hover {
   background: #789f90; }
 
-/* line 135, ../sass/styles.scss */
+/* line 138, ../sass/styles.scss */
 .menu:hover span {
   background: #fff; }
 
-/* line 138, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 .menu span {
   background: #789f90;
   display: block;
@@ -7602,7 +7606,7 @@ nav ul a:hover {
   height: 3px;
   width: 18px; }
 
-/* line 145, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 .event {
   background: url(../images/gal-2.jpg) no-repeat;
   background-size: cover;
@@ -7610,30 +7614,30 @@ nav ul a:hover {
   margin-top: 65px;
   text-align: center; }
 
-/* line 152, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .event span {
   color: #fff;
   text-transform: uppercase;
   line-height: 1.5; }
 
-/* line 157, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 .prayer span {
   color: #8d9290;
   display: block;
   margin: 0; }
 
-/* line 162, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 .pray p {
   margin: 0;
   padding-top: 15px; }
 
-/* line 166, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 .email {
   background: #789f90;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px; }
 
-/* line 171, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 form {
   background: #8d9290;
   margin-bottom: 30px;
@@ -7645,7 +7649,7 @@ form {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; }
 
-/* line 182, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 .email h2 {
   color: #fff;
   padding-top: 20px;
@@ -7653,20 +7657,20 @@ form {
   text-align: center;
   margin-top: 30px; }
 
-/* line 189, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 .email-signup {
   color: #343836;
   display: block;
   padding-top: 20px; }
 
-/* line 194, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 label {
   color: #fff;
   margin-top: 20px;
   padding-bottom: 5px;
   float: left; }
 
-/* line 200, ../sass/styles.scss */
+/* line 203, ../sass/styles.scss */
 .btn {
   background: #789f90;
   text-transform: uppercase;
@@ -7675,100 +7679,100 @@ label {
   margin-top: 30px;
   margin-bottom: 30px; }
 
-/* line 208, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 .content div {
   display: inline-block;
   padding-right: 10px;
   padding-bottom: 10px; }
 
-/* line 213, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 .content h3 a {
   color: #fff;
   line-height: 1.5; }
 
-/* line 217, ../sass/styles.scss */
+/* line 220, ../sass/styles.scss */
 .content span {
   color: #fff;
   padding-bottom: 30px;
   display: block; }
 
-/* line 222, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 .latest-posts h2 {
   color: #fff;
   padding-bottom: 20px; }
 
-/* line 226, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 .latest-posts div {
   padding: 0; }
 
-/* line 229, ../sass/styles.scss */
+/* line 232, ../sass/styles.scss */
 .address {
   text-align: center;
   margin-top: 30px; }
 
-/* line 233, ../sass/styles.scss */
+/* line 236, ../sass/styles.scss */
 .address p {
   color: #789f90;
   font-family: "museo-sans-rounded",sans-serif;
   text-align: center; }
 
-/* line 238, ../sass/styles.scss */
+/* line 241, ../sass/styles.scss */
 .address p a {
   color: #789f90;
   text-decoration: underline; }
 
-/* line 242, ../sass/styles.scss */
+/* line 245, ../sass/styles.scss */
 .social-media {
   text-align: center;
   padding-bottom: 30px;
   padding-top: 10px; }
 
-/* line 247, ../sass/styles.scss */
+/* line 250, ../sass/styles.scss */
 .social-media div {
   display: inline-block;
   padding: 7px 3px; }
 
 @media (min-width: 768px) {
-  /* line 254, ../sass/styles.scss */
+  /* line 257, ../sass/styles.scss */
   h1 {
     font-size: 3em;
     padding-bottom: 2px; }
 
-  /* line 258, ../sass/styles.scss */
+  /* line 261, ../sass/styles.scss */
   .event span {
     font-size: 1.5em; }
 
-  /* line 261, ../sass/styles.scss */
+  /* line 264, ../sass/styles.scss */
   .event {
     padding: 145px 15px; }
 
-  /* line 264, ../sass/styles.scss */
+  /* line 267, ../sass/styles.scss */
   .latest-posts div {
     width: 50%;
     float: left;
     padding: 10px; }
 
-  /* line 269, ../sass/styles.scss */
+  /* line 272, ../sass/styles.scss */
   .latest-posts div .content {
     width: 100%; } }
 @media (min-width: 992px) {
-  /* line 276, ../sass/styles.scss */
+  /* line 279, ../sass/styles.scss */
   .container:nth-child(3) .row:nth-child(1) {
     width: 50%;
     float: left;
     margin-top: 70px; }
 
-  /* line 281, ../sass/styles.scss */
+  /* line 284, ../sass/styles.scss */
   .container:nth-child(3) .row:nth-child(2) {
     width: 35%;
     float: right;
     margin-top: 70px; }
 
-  /* line 286, ../sass/styles.scss */
+  /* line 289, ../sass/styles.scss */
   .menu {
     display: none; }
 
-  /* line 289, ../sass/styles.scss */
+  /* line 292, ../sass/styles.scss */
   nav ul {
     display: block;
     position: static;
@@ -7777,67 +7781,67 @@ label {
     padding-right: 15px;
     text-align: center; }
 
-  /* line 297, ../sass/styles.scss */
+  /* line 300, ../sass/styles.scss */
   nav ul a {
     font-size: 1.5em; }
 
-  /* line 300, ../sass/styles.scss */
+  /* line 303, ../sass/styles.scss */
   ul li {
     display: inline-block; }
 
-  /* line 303, ../sass/styles.scss */
+  /* line 306, ../sass/styles.scss */
   .event {
     padding: 200px 15px; }
 
-  /* line 306, ../sass/styles.scss */
+  /* line 309, ../sass/styles.scss */
   .pray h2 {
     padding-top: 0; }
 
-  /* line 309, ../sass/styles.scss */
+  /* line 312, ../sass/styles.scss */
   .pray p {
     padding-bottom: 40px; }
 
-  /* line 312, ../sass/styles.scss */
+  /* line 315, ../sass/styles.scss */
   .email h2 {
     margin-top: 0; }
 
-  /* line 315, ../sass/styles.scss */
+  /* line 318, ../sass/styles.scss */
   .container:nth-child(5) {
     margin-top: 0; }
 
-  /* line 318, ../sass/styles.scss */
+  /* line 321, ../sass/styles.scss */
   .content {
     padding-bottom: 70px;
     margin: 0; }
 
-  /* line 322, ../sass/styles.scss */
+  /* line 325, ../sass/styles.scss */
   .content div {
     padding-right: 40px; }
 
-  /* line 325, ../sass/styles.scss */
+  /* line 328, ../sass/styles.scss */
   .content h3 {
     padding: 0; }
 
-  /* line 328, ../sass/styles.scss */
+  /* line 331, ../sass/styles.scss */
   .content h3 a {
     padding-top: 10px;
     padding-bottom: 0; }
 
-  /* line 332, ../sass/styles.scss */
+  /* line 335, ../sass/styles.scss */
   .content span {
     padding-bottom: 70px; }
 
-  /* line 335, ../sass/styles.scss */
+  /* line 338, ../sass/styles.scss */
   .latest-posts h2 {
     padding-top: 70px;
     margin: 0; }
 
-  /* line 339, ../sass/styles.scss */
+  /* line 342, ../sass/styles.scss */
   .latest-posts div {
     width: 25%;
     padding-bottom: 0; }
 
-  /* line 343, ../sass/styles.scss */
+  /* line 346, ../sass/styles.scss */
   .address {
     padding-top: 70px;
     float: left;
@@ -7845,28 +7849,28 @@ label {
     margin: 0;
     padding-bottom: 70px; }
 
-  /* line 350, ../sass/styles.scss */
+  /* line 353, ../sass/styles.scss */
   .address p a {
     text-decoration: none; }
 
-  /* line 353, ../sass/styles.scss */
+  /* line 356, ../sass/styles.scss */
   .address p a:hover {
     text-decoration: underline; }
 
-  /* line 356, ../sass/styles.scss */
+  /* line 359, ../sass/styles.scss */
   .social-media {
     float: right;
     padding-top: 70px;
     padding-right: 15px;
     padding-bottom: 70px; } }
 @media (min-width: 1200px) {
-  /* line 365, ../sass/styles.scss */
+  /* line 368, ../sass/styles.scss */
   .container:nth-child(3),
   nav .container {
     margin: auto;
     width: 1170px; }
 
-  /* line 370, ../sass/styles.scss */
+  /* line 373, ../sass/styles.scss */
   .latest-posts {
     margin: auto;
     width: 1170px; } }
