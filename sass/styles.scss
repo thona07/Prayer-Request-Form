@@ -56,6 +56,7 @@ img {
 }
 .container:nth-child( 2 )  {
 padding: 0;
+margin: 0;
 }
 .fullwidth .container{
 	padding: 0;
@@ -271,9 +272,7 @@ h1 {
 }
 
 @media ( min-width: 992px ) {
-	.container:nth-child( 3 ) {
-	margin-top: 70px;
-}
+
 .container:nth-child( 3 ) .row:nth-child( 1 ) {
 	width: 50%;
 	float: left;
@@ -320,6 +319,9 @@ ul li {
 	padding-bottom: 70px;
 	margin: 0;
 }
+.content div {
+	padding-right: 40px;
+}
 .content h3 {
 	padding: 0;
 }
@@ -344,6 +346,12 @@ ul li {
 	padding-left: 15px;
 	margin: 0;
 	padding-bottom: 70px;
+}
+.address p a {
+	text-decoration: none;
+}
+.address p a:hover {
+	text-decoration: underline;
 }
 .social-media {
 	float: right;
